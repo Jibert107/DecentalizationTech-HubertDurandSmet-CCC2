@@ -13,6 +13,10 @@ def quiz_game():
         {
             "question": "De quelle couleur est le ciel ?",
             "reponse": "Bleu"
+        },
+        {
+            "question": "Qu'est-ce qui est petit et marron ?",
+            "reponse": "Un marron"
         }
     ]
     
