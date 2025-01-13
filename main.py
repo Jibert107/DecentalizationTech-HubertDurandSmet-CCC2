@@ -16,6 +16,9 @@ def quiz_game():
         }
     ]
     
+    # Mélanger les questions de manière aléatoire
+    random.shuffle(questions)
+    
     score = 0
     
     print("Bienvenue au Quiz!")
@@ -42,5 +45,5 @@ def quiz_game():
     else:
         print("Continuez à vous entraîner!")
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     quiz_game()
